@@ -37,8 +37,7 @@ func (e *Error) Error() string {
 	return string(r)
 }
 
-// String satisfy the built-in interface type is the conventional error interface.
-// It returns a string from an error object.
+// String returns a string from an error object.
 func (e *Error) String() string {
 	msg := e.Err.Error()
 	if len(e.Meta()) > 0 {
