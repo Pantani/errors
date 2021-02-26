@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/Pantani/errors/branch/master/graph/badge.svg?token=F6HFPDPW9J)](https://codecov.io/gh/Pantani/errors)
+
 # Simple error package
 
 Simple abstraction for errors.
